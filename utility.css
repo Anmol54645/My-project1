@@ -1,0 +1,91 @@
+/* .border{
+    border: 2px solid red;
+    margin: 2px;
+} */
+ .border{
+    border: 2px solid red;
+ }
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color:#0a0a0a;;
+    color: white;
+}
+.invart{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #141414;
+    color: white;
+    
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.M-1{
+    margin: 10px;
+}
+
+:root{
+  --sb-track: rgba(0,0,0,0.45);
+  --sb-thumb: rgba(255,255,255,0.08);
+  --sb-thumb-hover: rgba(255,255,255,0.12);
+  --sb-radius: 999px;
+  --sb-w: 8px;
+}
+
+html, body {
+  /* keep visual consistency on full-page scrollbars */
+  background-color: #080808;
+}
+
+/* WebKit */
+*::-webkit-scrollbar { width: var(--sb-w); height: var(--sb-w); }
+*::-webkit-scrollbar-track { background: var(--sb-track); border-radius: var(--sb-radius); }
+*::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb);
+  border-radius: var(--sb-radius);
+  transition: background .15s ease;
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--sb-thumb-hover); }
+
+/* Firefox fallback */
+* { scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.08) rgba(0,0,0,0.45); }
+
+
+
+
+
+
+
+
+/* previous.addEventListener("click", ()=>{
+    currentsong.pause()
+    console.log("Previous clicked")
+    console.log(currentsong)
+     let index = songs.indexOf(currentsong.src.split("/").slice(-1)[0])
+     if((index -1) >= 0){
+        playMusic(songs[index-1]);
+     }
+})
+next.addEventListener("click", ()=>{
+   
+    console.log("Next clicked")
+     
+     let index = songs.indexOf(currentsong.src.split("/").slice(-1)[0])
+     if((index + 1) < songs.length-1){
+        playMusic(songs[index+1]);
+     }
+}) */
+
